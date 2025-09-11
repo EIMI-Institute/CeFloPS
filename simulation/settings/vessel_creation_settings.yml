@@ -1,0 +1,4 @@
+#This file holds settings regarding the vessel model creation
+GUIDE_POINT_DISTANCE: 4.5
+DISTANCE_BETWEEN_PATHPOINTS: 1
+MAX_PATHINDEX_DISTANCE_VOLUMES: 2

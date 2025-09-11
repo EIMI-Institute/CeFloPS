@@ -1,0 +1,27 @@
+#This file holds settings regarding the regions and associated_kvalues
+#region,values where values = [k1,k2,k3,k4]
+# REGIONNAME: k1,k2,k3,k4
+Heartchambers: [0,0,0]
+#p1:
+Muscle: [0.026, 0.249, 0.016]  # K1, k2, k3, k4 as 0
+Lung: [0.023, 0.205, 0.001]
+Liver: [0.660, 0.765, 0.002]
+Grey_matter: [0.107, 0.165, 0.067]
+All: [0.553, 1.213, 0.039]
+Myocardium: [0.832, 2.651, 0.099]
+Spleen: [1.593, 2.867, 0.006]
+GUC_lesions: [0.022,0.296,0.771]
+#p2
+cortex: [0.0896,0.2532  ,0.2213 ]
+whitematter: [0.0337 ,0.1347  ,0.0482 ]
+cerebellum: [0.1318 ,0.6280  ,0.1870 ]
+thyroid: [0.9663 ,4.6042  ,0.0748 ]
+myocardium: [0.8162 ,3.4975  ,0.1909 ]
+lung: [0.0143 ,0.3628  ,0.0307 ]
+liver: [0.4134 ,0.5089  ,0.0129 ]
+spleen: [0.8846 ,2.0169  ,0.0415 ]
+pancreas: [0.3561 ,1.7077  ,0.0787  ]
+kidney: [0.7023 ,1.3542  ,0.1778  ]
+muscle: [0.0263 ,0.3165  ,0.0461 ]
+bone: [0.1544  ,0.7132   ,0.0458  ]
+bonemarrow: [0.0405  ,0.2901   ,0.0189 ]

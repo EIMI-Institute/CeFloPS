@@ -1,0 +1,34 @@
+
+#settings file that specifies which mean blood pool delays should be used for fitting
+tissue_mean_coefficient: 2
+vessel_mean_coefficient: 1.42857142857
+
+
+adiposetissue: 24.46
+adrenals: 4.89
+aortaandlarge: 2.05
+brain: 2.45
+bronchial: 19.57
+coronary: 6.12
+gonads: 19.57
+kidneys: 2.57
+largeintestine: 91.0582156133829
+largeveins: 6.53
+leftheart: 1.54
+liver: 9.59
+lymphnodes: 2.88
+muscle: 20.14
+pancreas: 14.68
+pulmonary: 3.66
+right heart: 1.57
+skin: 14.68
+small intestine: 9.30
+spleen: 11.42
+stomach and esophagus: 24.46
+thyroid: 0.98
+urinary bladder: 8.15
+red marrow: 32.62
+trabecular bone: 32.62
+cortical bone: 32.62
+other skeletal tissue: 48.92
+all other tissues: 33.79

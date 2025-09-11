@@ -1,0 +1,23 @@
+#This file holds settings regarding the simulations setup
+PROCESS_COUNT: 1
+CELLS_WITH_PATH_LOGGING: 300
+CELL_COUNT: 100000 # number of simulated cells
+TIME_LIMIT_S: 1000 #simulation time limit in seconds
+USE_FLOW_WALK: False #use flow based random walk
+show_radius_changes_in_positions: False
+RETURN_AFTER_C1_RELEASE: True #forbid interaction after c1
+capillary_speed: 4
+IGNORE_TLINKS: False #ignore artificial links
+CELL_INITAL_DISTRIBUTION: random #initial_cell_distribution #random, even, arminjection, leg
+SUBTRACT_VESSELMESHES: True #subtract vesselmeshes from VOIs
+LEGINJECTION: True # OVERRIDES RANDOM 
+ARMINJECTION: True # OVERRIDES RANDOM and leg!
+ROI_VOXEL_PITCH: 1
+TCHANCE: 0.1
+# should r have a positional influence on the cells in vessels:
+SHOW_R_CHANGES: False
+STEPSIZE: 0.2
+MAXDELAY: 5
+USE_VOL_SPEED: True
+SYNCHRONIZE: False
+R_BIAS: 0.7

@@ -1,0 +1,6 @@
+#This file holds settings regarding the simulations output
+parallel_sim_feedback:
+PLOT_COMPARTMENTS_WITH_NAMEPART: ["lung"]
+COLLECT_KEYFRAMES: [6, 18, 30, 60, 300, 600]
+MINIMAL_TIME_DIFFERENCE_OUTPUT: 0.1 #points_per_second
+parallel_sim_feedback: ( "FULL" )  # PROC for processes , CELL for cellcount per region, FULL for both

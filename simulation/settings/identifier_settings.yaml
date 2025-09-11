@@ -1,0 +1,23 @@
+#This file holds settings regarding the meshfiles identification and region mapping
+#vessels:
+VESSEL_VEINLIKE: vl.
+VESSEL_ARTERYLIKE: al.
+#Volumes 
+ROI_2_5D: [
+    "_int",
+    "stomach",
+    "intest",
+    "throat",
+    "trachea",
+]  # rois in which only the outer layer of the mesh shall be traversed; usually tubes / not filled with tissue
+ROI_3D: [organ,musc]
+
+
+#"heart.systole.pericardium.stl"
+
+NEGATIVE_SPACE: [
+    "beating_heart.systole.sys_rv_0.stl",
+    "beating_heart.systole.sys_lv_4_0.stl",
+    "bronchial_tree.trachea.stl",
+    "bronchial_tree.bronchi.stl",
+]  # heartchambers, bronchial tree. Vessels automatically get subtracted!b

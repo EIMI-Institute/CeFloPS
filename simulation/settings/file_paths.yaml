@@ -1,0 +1,10 @@
+#This file holds settings regarding the meshfiles pathes
+vessel_path: 1
+CALIBRATION_INPUT_CONCENTRATIONS: "concentrations/"
+PATH_TO_STLS: "/pathto/STL" 
+PATH_TO_ROIS: "pathto/STL"
+#leave empty for default or overwrite:
+simulation_results: DEFAULT
+vessel_output_path: DEFAULT
+cache_folder: DEFAULT
+cache_folder_vois: DEFAULT

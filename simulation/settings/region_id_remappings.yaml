@@ -1,0 +1,34 @@
+#This file holds settings regarding identifier to region remappings to simulate other behaviour in tissues uptake
+#This is a priority list: if an identifier matches a filename, the corresponding regions constants will be used!
+
+#p1:
+Muscle: [musc, pericardium]
+Heartchambers: [atrium]
+Lung: lung
+Liver: liver
+Grey_matter: Grey_matter
+Spleen: spleen
+Myocardium: ----
+GUC_lesions: ----
+#p2
+cortex: cortex
+whitematter: White_matter
+cerebellum: Cerebellum
+#, cereb
+thyroid: thyroid
+myocardium: myocard
+lung: lung
+liver: liver
+spleen: spleen
+pancreas: [pancreas,Pancreas]
+kidney: [kidney,Kidney]
+muscle: ----
+bone: ---bone.---
+bonemarrow: ----
+
+#p1
+All: [adrenal,pancreas,stomach,throat,intest,"adrenal",_int]
+
+
+
+#TODO brain plotten

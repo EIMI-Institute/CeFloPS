@@ -1,0 +1,9 @@
+#mapping rois by region id to a bigger roi
+
+#mappings of a higher tier roi consisting of lower tier rois:
+#these are used for generating plotted concentrations and have no own rate constants!
+#all qualified meshes must have associated rate constants!
+
+#everything is plottet under its rate constant name, if not specified otherwise here
+Brain: [cortex, whitematter, cerebellum, Grey_matter]
+Heart: [myocardium]
